@@ -1,0 +1,24 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/phase1-read-give.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.127.0",
+    "@google/genai": "^2.12.0",
+    "@qdrant/js-client-rest": "^1.18.0",
+    "axios": "^1.18.1",
+    "express": "^5.2.1",
+    "multer": "^2.4.0",
+    "nodemon": "^3.1.14",
+    "openai": "^6.49.0",
+    "unpdf": "^1.8.1"
+  }
+}
